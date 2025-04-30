@@ -638,7 +638,7 @@ button {
   .approach-icon-container {
     border: 1px solid var(--light-slate);
     border-radius: 4px;
-    width: 264px;
+    max-width: 264px;
     height: 112px;
     background: var(--cloud);
     margin-bottom: 8px;
@@ -707,4 +707,37 @@ button {
 
 .team-facelist .section-text {
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .team-section {
+    padding: 96px 0;
+  }
+
+  .team-container {
+    padding: 0;
+  }
+
+  .team-facelist {
+    column-gap: 24px;
+    row-gap: 64px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .team-facelist {
+    gap: 24px;
+  }
+
+  .team-facelist-item {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+
+  .team-container {
+    padding: 0 16px;
+  }
+
+  .team-section {
+    padding: 120px 0;
+  }
 }

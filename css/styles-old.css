@@ -15,15 +15,6 @@ fieldset {
 /* -- Approach section -- */
 /* -- Page titles styles -- */
 /* -- Team section -- */
-
-.team-facelist {
-  gap: 24px;
-}
-
-.team-facelist-item {
-  flex-basis: calc((100% - 72px) / 4);
-}
-
 /* -- Portfolio section -- */
 /* 3 */
 .portfolio-list {
