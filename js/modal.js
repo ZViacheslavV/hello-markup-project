@@ -7,8 +7,8 @@
     // Додати атрибут data-modal на бекдроп модалки
     modal: document.querySelector("[data-modal]"),
 
-    openMobileBtn: document.querySelector("[data-mobile-modal-open]"),
-    closeMobileBtn: document.querySelector("[data-mobile-modal-close]"),
+    openMobileBtn: document.querySelector("[data-mobile-open]"),
+    closeMobileBtn: document.querySelector("[data-mobile-close]"),
     mobile: document.querySelector("[data-mobile]"),
   };
 

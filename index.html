@@ -58,7 +58,7 @@
           </ul>
         </address>
 
-        <button data-mobile-modal-open class="burger-btn" type="button">
+        <button class="burger-btn" type="button" data-mobile-open>
           <svg class="burger-icon" width="24" height="24">
             <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
           </svg>
@@ -66,13 +66,13 @@
       </div>
 
       <!-- Mobile menu -->
-      <div data-mobile class="mobile-menu">
+      <div class="mobile-menu" data-mobile>
         <div class="container mobile-menu-container">
-          <button
-            data-mobile-modal-close
-            class="mobile-menu-close"
-            type="button"
-          ></button>
+          <button class="mobile-menu-close-btn" type="button" data-mobile-close>
+            <svg class="modal-form-close-icon-svg" width="8" height="8">
+              <use href="./images/icons.svg#icon-modal-form-close"></use>
+            </svg>
+          </button>
           <nav class="mobile-nav">
             <ul class="mobilenav-list">
               <li>
@@ -88,21 +88,22 @@
           <address class="mobile-contacts">
             <ul class="mobile-address-list">
               <li>
-                <a class="mobile-link" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
+                <a
+                  class="mobile-link mobile-address-current-link"
+                  href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
                 >
               </li>
               <li>
-                <a class="mobile-link" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a
+                <a class="mobile-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
                 >
               </li>
             </ul>
           </address>
 
           <div class="mobile-social-media-container">
-            <p class="mobile-title-text">Social media</p>
-            <ul class="mobile-social-icons-list">
+            <ul class="social-icons-list mobile-social-icons-list">
               <li class="social-icons-litem mobile-social-icons-litem">
                 <a
                   class="social-icon-link"
